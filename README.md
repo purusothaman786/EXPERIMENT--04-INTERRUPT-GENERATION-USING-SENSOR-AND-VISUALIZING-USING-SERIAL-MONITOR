@@ -1,15 +1,15 @@
-EXPERIMENT-04-INTERRUPT-GENERATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
-DATE: 20.09.25
-NAME: Purusothaman K
-ROLL NO :212224110046
-DEPARTMENT: B.E Cse(ioT)
-Aim:
+## EXPERIMENT-04-INTERRUPT-GENERATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
+##DATE: 20.09.25
+##NAME: Purusothaman K
+##ROLL NO :212224110046
+##DEPARTMENT: B.E Cse(ioT)
+##Aim:
 To Interface a IR Sensor to digital port of iot development board and generate an interrupt and visualize on the serial monitor
 
-Components required:
+##Components required:
 STM32 CUBE IDE, serial port utility monitor,IR Pair Sensor .
 
-Theory :
+##Theory :
 An infrared (IR) sensor a proximity sensor, or a ‘nearness’ sensor senses whether there is an object near it or not. The IR stands for Infrared sensor. Infrared is the light out of our visible spectrum.
 
 Working of an IR Sensor The white LED here is an IR LED which works as the transmitter and the component next to the IR LED is a photodiode that works as the receiver in the IR sensor.
@@ -43,7 +43,7 @@ image
 
 The diagram below shows how the GPIO pins are connected to the 16 interrupt lines:
 
-Procedure:
+##Procedure:
 click on STM 32 CUBE IDE, the following screen will appear
 image
 
@@ -96,7 +96,7 @@ click on the serial port utility image
 
 click on the run to observe the values
 
-STM 32 CUBE PROGRAM :
+##STM 32 CUBE PROGRAM :
 ```
 
 #include "main.h"
@@ -137,10 +137,10 @@ PUTCHAR_PROTOTYPE{
 }
 ```
 
-Output screen shots of serial port utility :
+##Output screen shots of serial port utility :
 WhatsApp Image 2025-09-20 at 15 34 38_ab0feae3
 
-Circuit board :
+##Circuit board :
 491867363-54c94bd0-e141-4b67-ace7-f71fc164be8e
-Result :
+##Result :
 Interfacing a IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port
